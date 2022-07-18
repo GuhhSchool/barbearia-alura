@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alura | Produtos</title>
+		
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="icon" href ="../assets/barber.jpg">
+		<link rel="stylesheet" href="../css/p_precos.css">
+		
+		<style>
+			body {
+				animation: fadeInAnimation ease 2s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+			}
+			@keyframes fadeInAnimation {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<div class="center">
+				<img id="logo" src="../assets/logo.png">
+				
+				<nav>
+					<ul id="cabecalho">
+						<li><a href="../Index.html">Menu</a></li>
+						<li><a href="precos.html">Produtos</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<ul class="produtos">
+				<li><h2>Cabelo</h2>
+					<img src="../assets/cabelo.png"/>
+					<p class="pr_desc">Na tesoura ou máquina, como o cliente preferir.</p>
+					<p class="pr_precos">R$ 25,00</p>
+				</li>
+				
+				<li><h2>Barba</h2>
+					<img src="../assets/barba.png"/>
+					<p class="pr_desc">Corte e desenho profissional de barba.</p>
+					<p class="pr_precos">R$ 18,00</p>
+				</li>
+				
+				
+				<li><h2>Cabelo + Barba</h2>
+					<img src="../assets/cabelo+barba.png"/>
+					<p class="pr_desc">Pacote completo de cabelo e barba</p>
+					<p class="pr_precos">R$ 35,00</p>
+				</li>
+			</ul>
+		</main>
+	
+		<footer>
+			<div class="rodape">
+				<img id="logo-rodape" src="../assets/logo-branco.png">
+				<p>Gustavo Proença © 2022 | <a href="https://www.alura.com.br" target="_blank">Cursos Alura</a></p>
+			</div>
+		</footer>
+	
+	</body>
+</html>
