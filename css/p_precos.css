@@ -1,0 +1,119 @@
+body {
+	background:#111111;
+}
+
+header {
+	background: #0A0A0A;
+}
+
+.center {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#logo {
+	width: 270px;
+}
+
+nav {
+	position: absolute;
+	top: 35px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin-left: 40px;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #3696D5;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #6100FF;
+	text-decoration: underline;
+	text-decoration-color: #FF3A3A;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 100px 0; 
+}
+
+.produtos li:hover {
+	background: #536FDD;
+}
+
+.produtos li:active {
+	border-color: green;
+	background: #62C25B; 
+}
+
+.produtos li {
+	box-sizing: border-box;
+	background: #636e99;
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	border-color: #1300FF;
+	border-width: 2px;
+	border-style: solid inset;
+	border-radius: 10px 10px 40px 10px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.pr_precos {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #FFF800;
+}
+
+.pr_desc {
+	font-size: 20px;
+}
+
+footer {
+	background: #0A0A0A;
+	text-align: center;
+}
+
+.rodape {
+	display: inline-block; 
+	margin: 0 auto;
+	padding: 20px;
+	width: 940px;
+}
+
+.rodape p {
+	color: #3696D5;
+	font-size: 20px;
+}
+
+.rodape p a {
+	text-decoration: none;
+	color: #3696D5;
+}
+
+.rodape p a:hover {
+	text-decoration: underline;
+}
+
+#logo-rodape {
+	width: 5%;
+}
