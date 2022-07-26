@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alura | Contato</title>
+		
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="icon" href ="../assets/barber.jpg">
+		<link rel="stylesheet" href="../css/p_contato.css">
+		
+		<style>
+			body {
+				animation: fadeInAnimation ease 2s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+			}
+			@keyframes fadeInAnimation {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<div class="center">
+				<img id="logo" src="../assets/logo.png">
+				
+				<nav>
+					<ul id="cabecalho">
+						<li><a href="../index.html">Menu</a></li>
+						<li><a href="precos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<div class="inline">
+				<form>
+					<label for="nome">Nome completo</label>
+					<input type="text" id="nome" class="input-padrao" placeholder="Alura Cursos" required/>
+						
+					<label for="email">E-mail para novidades</label>
+					<input type="email" id="email" class="input-padrao" placeholder="exemplo@gmail.com" required/>
+					
+					<label for="telefone">Telefone para contato</label>
+					<input type="tel" id="telefone" class="input-padrao" placeholder="(041) xxxxx-xxxx" required/>
+					
+					<label for="recado">Mensagem</label>
+					<textarea rows="10" cols="70" id="mensagem" class="input-padrao" required></textarea>
+					
+					<fieldset>
+						<legend>Como prefere nosso contato?</legend>
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>Email</label>
+						<label for="radio-telefone"><input type="radio" name="contato" value="sms" id="radio-telefone">SMS</label>
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+						
+					</fieldset>
+					
+					<fieldset>
+						<legend>Qual período deseja ser notificado?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+					
+					<label><input type="checkbox" class="checkbox" checked/> -- Deseja receber nossas novidades?</label>
+					
+					<input type="submit" value="Enviar formulário" id="enviar">
+				</form>
+				
+				<table class="table-openned">
+					<thead>
+						<tr>
+							<th>Dia</th>
+							<th>Horário</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						
+						<tr>
+							<td>Quarta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						
+						<tr>
+							<td>Sexta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</main>
+		
+		<footer>
+			<div class="rodape">
+				<img id="logo-rodape" src="../assets/logo-branco.png">
+				<p>Gustavo Proença © 2022 | <a href="https://www.alura.com.br" target="_blank">Cursos Alura</a></p>
+			</div>
+		</footer>
+	
+	</body>
+</html>
