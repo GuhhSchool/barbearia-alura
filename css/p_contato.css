@@ -1,0 +1,186 @@
+body {
+	background:#111111;
+}
+
+header {
+	background: #0A0A0A;
+}
+
+.center {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#logo {
+	width: 270px;
+}
+
+nav {
+	position: absolute;
+	top: 35px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin-left: 40px;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #3696D5;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #6100FF;
+	text-decoration: underline;
+	text-decoration-color: #FF3A3A;
+}
+
+footer {
+	background: #0A0A0A;
+	text-align: center;
+}
+
+.rodape {
+	display: inline-block; 
+	margin: 0 auto;
+	padding: 20px;
+	width: 940px;
+}
+
+.rodape p {
+	color: #3696D5;
+	font-size: 20px;
+}
+
+.rodape p a {
+	text-decoration: none;
+	color: #3696D5;
+}
+
+.rodape p a:hover {
+	text-decoration: underline;
+}
+
+#logo-rodape {
+	width: 5%;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.inline {
+	position: relative;
+	vertical-align: top;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.input-padrao:focus {
+	box-shadow: 10px 5px 5px #6100FF;
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	width: 50%;
+	box-shadow: 10px 5px 5px black;
+	transition: 0.5s box-shadow;
+}
+
+form textarea {
+	resize: none;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+fieldset label {
+	color: #33FFEC;
+}
+
+#radio-whatsapp {
+	margin-bottom: 20px;
+}
+fieldset legend {
+	margin-bottom: 20px;
+}
+
+select {
+	background: #485aa1;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	padding: 8px 18px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+select option {
+	color: #2dff9e;
+	background: #636e99;
+	border-radius: 10px;
+	padding: 8px 18px;
+	border: 1px solid;
+}
+#enviar {
+	width: 40%;
+	padding: 15px 0;
+	color: #2dff9e;
+	background: #6100FF;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 20px;
+	transition: 0.5s background;
+	transition: 0.5s transform;
+	cursor: pointer;
+}
+
+#enviar:hover {
+	background: #4500b5;
+	color: #61ff2d;
+	transform: scale(1.1);
+}
+
+.table-openned {
+	margin: 30px 0;
+	position: absolute;
+	top: 0px;
+	right: -100px;
+}
+
+thead {
+	background: #485aa1;
+	font-weight: bold;
+}
+
+tbody {
+	background: #636e99;
+}
+	
+td, th {
+	padding: 15px 45px;
+	font-size: 35px;
+	border: 1px solid #1300FF;
+	border-radius: 5%;
+}
+
